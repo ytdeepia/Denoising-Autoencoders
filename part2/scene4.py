@@ -190,7 +190,6 @@ class Scene2_4(VoiceoverScene):
 
         self.wait(0.8)
 
-        self.wait(0.5 * tracker.duration)
         self.play(FadeOut(curve, *points), FadeIn(tweedie_formula), run_time=1)
 
         self.wait(0.8)

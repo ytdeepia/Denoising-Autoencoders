@@ -352,7 +352,6 @@ class Scene2_1(VoiceoverScene):
 
         self.wait(0.9)
 
-        self.wait(tracker.duration * 0.5)
         self.play(Create(posterior_contour_group), run_time=2)
         self.play(Write(posterior_label))
 
